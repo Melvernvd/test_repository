@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-jgfyjfyjfjj
+﻿class Program
+{
+    static void Main()
+    {
+        Account.CheckAdmin();
+        Main_Menu.MainMenu();
+    }
+
+    public static void ConsoleClear()
+    {
+        //Console.Clear();
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\test_repository.csproj": {}
+    "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\Project_B.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\test_repository.csproj": {
+    "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\Project_B.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\test_repository.csproj",
-        "projectName": "test_repository",
-        "projectPath": "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\test_repository.csproj",
+        "projectUniqueName": "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\Project_B.csproj",
+        "projectName": "Project_B",
+        "projectPath": "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\Project_B.csproj",
         "packagesPath": "C:\\Users\\melve\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\obj\\",
+        "outputPath": "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,14 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

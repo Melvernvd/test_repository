@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6tAUpwcgM/O4rjjG2zGeynGvmTQD7zYpNz4oklfZDF6+ZG72Bbt+B0qGD8lGcWEAHdwMhtkgb9S9njgCgGWm+A==",
+  "dgSpecHash": "dBko8ZTXOW1dreLBsrIey7NjxtzQik5T2aYtNFx14wvbplXmh58m/NmMJNskuqugvTijpZ69LrpWuo2qy+Jneg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\test_repository\\test_repository.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\melve\\OneDrive\\Documenten\\GitHub\\Project-B\\Project_B\\Project_B.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melve\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
